@@ -14,21 +14,21 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 2. Compile el programa del ejercicio anterior usando información de simbolos (con la flag -g). Al hacer esto se esta poniendo mas informacion en el ejecutable para permitir al debugger acceder a informacion util sobre los nombres de las variables y cosas similares. Ejecute el programa bajo el debugger digitando en consola (para el caso) ```gdb null``` y entonces una vez el ```gdb``` este corriendo ejecute ```run```. 
 *¿Qué muestra gdb?
 
-    *R/Al usar el comando **run** el programa inicia indicando la ruta donde esta alojado y se ejecuta por completo como se   ve en la imagen.
+    *R/ Al usar el comando **run** el programa inicia indicando la ruta donde esta alojado y se ejecuta por completo como se   ve en la imagen.
     
     ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null1.png)
 
 3. Haga uso de la herramienta ```valgrind``` en el programa empleado en los puntos anteriores. Se usará la herramienta ```memcheck``` que es parte de ```valgrind``` para analizar lo que pasa: ``` valgrind --leak-check=yes null```.
 
- ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null3.png)
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null3.png)
 
 *¿Qué pasa cuando corre esto?.
 
-    *R/Luego de correr se presenta el mismo error del punto 1, pero esta herramienta me proporciona informacion mucho mas          detallada sobre el el origen del error. 
+    *R/ Luego de correr se presenta el mismo error del punto 1, pero esta herramienta me proporciona informacion mucho mas detallada sobre el el origen del error. 
 
 *¿Puede usted interpretar la salida de la herramienta anterior?.
 
-    *R/Primero muestra informacion de la herramienta y su licencia, luego me da a conocer el error a causa de usar variables no inicializadas y el no ser posible la escriura sobre esta, luego muestra que no fue posible el acceso a esa region de memoria, y finalmente me da informacion del uso de memoria por el programa estando vacia.
+    *R/ Primero muestra informacion de la herramienta y su licencia, luego me da a conocer el error a causa de usar variables no inicializadas y el no ser posible la escriura sobre esta, luego muestra que no fue posible el acceso a esa region de memoria, y finalmente me da informacion del uso de memoria por el programa estando vacia.
 
 4. Escriba un programa sencillo que asigne memoria usando ```malloc()``` pero olvide liberarla antes de que el programa termina. ¿Qué pasa cuando este programa se ejecuta?, ¿Puede usted usar gdb para encontrar problemas como este?, ¿Que dice acerca de Valgrind (de nuevo use este con la bandera ```--leak check=yes```)?
 
