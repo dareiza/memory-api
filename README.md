@@ -28,7 +28,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 
 *¿Puede usted interpretar la salida de la herramienta anterior?.
 
-    *R/Primero muestra informacion de la herramienta y su licencia, luego me da a conocer el error a causa de usar variables      no inicializadas y el no ser posible la escriura sobre esta, luego muestra que no fue posible el acceso a esa region de      memoria, y finalmente me da informacion del uso de memoria por el programa estando vacia.
+    *R/Primero muestra informacion de la herramienta y su licencia, luego me da a conocer el error a causa de usar variables no inicializadas y el no ser posible la escriura sobre esta, luego muestra que no fue posible el acceso a esa region de memoria, y finalmente me da informacion del uso de memoria por el programa estando vacia.
 
 4. Escriba un programa sencillo que asigne memoria usando ```malloc()``` pero olvide liberarla antes de que el programa termina. ¿Qué pasa cuando este programa se ejecuta?, ¿Puede usted usar gdb para encontrar problemas como este?, ¿Que dice acerca de Valgrind (de nuevo use este con la bandera ```--leak check=yes```)?
 
