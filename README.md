@@ -16,7 +16,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 
     *R/ Al usar el comando **run** el programa inicia indicando la ruta donde esta alojado y se ejecuta por completo como se   ve en la imagen.
     
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null1.png)
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null2.png)
 
 3. Haga uso de la herramienta ```valgrind``` en el programa empleado en los puntos anteriores. Se usará la herramienta ```memcheck``` que es parte de ```valgrind``` para analizar lo que pasa: ``` valgrind --leak-check=yes null```.
 
