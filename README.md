@@ -55,7 +55,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 
     *R/Hay una ejecucion del programa sin problema imprimiendo 0 en pantalla.
     
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto5.png)
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto5.png)
 
 *¿Qué pasa cuando se corre el programa usando ```valgrind```?
 
@@ -73,11 +73,13 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 *¿El programa corre?
 
     *R/ Si el programa corre sin problemas
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto6.png)
 
 
 *¿Que pasa cuando hace uso de ```valgrind```?
 
     *R/ Al usar **valgrind** en este caso nos indica que hay un error de lectura, el cual se hace en el array que fue previamente liberado.
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto6Valgrind.png)
 
 
 7. Ahora pase un **funny value** para liberar (e.g. un puntero en la mitad del array que usted ha asignado) ¿Qué pasa?, ¿Ústed necesita herramientas para encontrar este tipo de problemas?
