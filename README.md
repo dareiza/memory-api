@@ -20,7 +20,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 
 3. Haga uso de la herramienta ```valgrind``` en el programa empleado en los puntos anteriores. Se usará la herramienta ```memcheck``` que es parte de ```valgrind``` para analizar lo que pasa: ``` valgrind --leak-check=yes null```.
 
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null3.png)
+![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/null3.png)
 
 *¿Qué pasa cuando corre esto?.
     *R/ Luego de correr se presenta el mismo error del punto 1, pero esta herramienta proporciona informacion mucho mas detallada sobre el origen del error.
@@ -67,6 +67,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 *¿El programa corre?
 
     *R/ Si el programa corre sin problemas
+    
     ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto6.png)
 
 *¿Que pasa cuando hace uso de ```valgrind```?
