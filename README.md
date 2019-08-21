@@ -82,7 +82,16 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto6Valgrind.png)
 
 
-7. Ahora pase un **funny value** para liberar (e.g. un puntero en la mitad del array que usted ha asignado) ¿Qué pasa?, ¿Ústed necesita herramientas para encontrar este tipo de problemas?
+7. Ahora pase un **funny value** para liberar (e.g. un puntero en la mitad del array que usted ha asignado).
+
+
+    *¿Qué pasa?.
+    R/ Al correr el programa nos muestra que hay un apuntador invalido.
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto7.png)
+
+    *¿Ústed necesita herramientas para encontrar este tipo de problemas?
+    R/Al hacer uso de **valgrind** se pudo detectar la cantidad de errores que fueron causados por el apuntador invalido y aunque no es necesaria otra herramienta para identificar este tipo de problema si ayuda bastante si se quieren conocer mas detalles de este tipo de problema.
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto7.png)
 
 8. Intente usar alguna de las otras interfaces para asignacion de memoria. Por ejemplo, cree una estructura de datos simple similar a un vector y que use rutinas que usen realloc para manejar el vector. Use un array para almacenar los elementos del vector; cuando un usuario agregue una entrada al vector, use realloc para asignar un espacio mas a este. ¿Que tan bien funciona el vector asi?, ¿Como se compara con una lista enlazada?, utilice ```valgrind``` para ayudarse en la busqueda de errores.
 
