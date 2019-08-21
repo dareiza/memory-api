@@ -35,10 +35,13 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 
     *R/ Se puede ver que el programa es ejecutado de manera correcta y muestra la salida esperada en pantalla.
     
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
+    imagenes/punto4.png
 
 *¿Puede usted usar gdb para encontrar problemas como este?
 
     *R/ Al usar **gdb** podemos notar que el programa es ejecutado con normalidad imprimiendo en pantalla el resultado esperado nuevamente.
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/blob/master/imagenes/punto4.png)
     ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4gdb.png)
 
 *¿Que dice acerca de Valgrind (de nuevo use este con la bandera ```--leak check=yes```)?
