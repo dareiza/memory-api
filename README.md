@@ -34,32 +34,27 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 *¿Qué pasa cuando este programa se ejecuta?
 
     *R/ Se puede ver que el programa es ejecutado de manera correcta y muestra la salida esperada en pantalla.
-    
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
-    imagenes/punto4.png
+
 
 *¿Puede usted usar gdb para encontrar problemas como este?
 
     *R/ Al usar **gdb** podemos notar que el programa es ejecutado con normalidad imprimiendo en pantalla el resultado esperado nuevamente.
-    
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4gdb.png)
+
 
 *¿Que dice acerca de Valgrind (de nuevo use este con la bandera ```--leak check=yes```)?
 
     *R/ Al usar **valgrind** podemos observar más detalles donde podemos notar que fueron reservados 4 bytes en un bloque, el cual no fue liberado al finalizar el programa, esto fue como se puede ver un **definitely lost**
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4Valgrind.png)
 
 5. Escriba un programa que cree un array de enteros llamado data de un tamaño de 100 usando ```malloc```; entonces, lleve el ```data[100]``` a ```0```.
 
 *¿Qué pasa cuando este programa se ejecuta?
 
     *R/Hay una ejecucion del programa sin problema imprimiendo 0 en pantalla.
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto5.png)
 
 *¿Qué pasa cuando se corre el programa usando ```valgrind```?
 
     *R/ Aunque el programa se ejecuta sin problemas usando **valgrind**, se puede observar que hay 2 errorres uno de lectura y otro de escritura no permitidas.
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto5Valgrind.png)
+
 
 *¿El programa es correcto?
 
@@ -70,13 +65,12 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 *¿El programa corre?
 
     *R/ Si el programa corre sin problemas
-    
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto6.png)
+
 
 *¿Que pasa cuando hace uso de ```valgrind```?
 
     *R/ Al usar **valgrind** en este caso nos indica que hay un error de lectura, el cual se hace en el array que fue previamente liberado.
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto6Valgrind.png)
+
 
 7. Ahora pase un **funny value** para liberar (e.g. un puntero en la mitad del array que usted ha asignado) ¿Qué pasa?, ¿Ústed necesita herramientas para encontrar este tipo de problemas?
 
