@@ -54,10 +54,14 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 *¿Qué pasa cuando este programa se ejecuta?
 
     *R/Hay una ejecucion del programa sin problema imprimiendo 0 en pantalla.
+    
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto5.png)
 
 *¿Qué pasa cuando se corre el programa usando ```valgrind```?
 
     *R/ Aunque el programa se ejecuta sin problemas usando **valgrind**, se puede observar que hay 2 errorres uno de lectura y otro de escritura no permitidas.
+    
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto5Valgrind.png)
 
 
 *¿El programa es correcto?
