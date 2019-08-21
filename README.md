@@ -32,6 +32,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 4. Escriba un programa sencillo que asigne memoria usando ```malloc()``` pero olvide liberarla antes de que el programa termina.
 
 *¿Qué pasa cuando este programa se ejecuta?
+![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
 
     *R/ Se puede ver que el programa es ejecutado de manera correcta y muestra la salida esperada en pantalla.
 
