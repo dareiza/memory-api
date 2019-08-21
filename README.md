@@ -32,14 +32,16 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 4. Escriba un programa sencillo que asigne memoria usando ```malloc()``` pero olvide liberarla antes de que el programa termina.
 
 *¿Qué pasa cuando este programa se ejecuta?
-![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
+
 
     *R/ Se puede ver que el programa es ejecutado de manera correcta y muestra la salida esperada en pantalla.
-
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
 
 *¿Puede usted usar gdb para encontrar problemas como este?
 
     *R/ Al usar **gdb** podemos notar que el programa es ejecutado con normalidad imprimiendo en pantalla el resultado esperado nuevamente.
+    
+    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4Valgrind.png)
 
 
 *¿Que dice acerca de Valgrind (de nuevo use este con la bandera ```--leak check=yes```)?
