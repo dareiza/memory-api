@@ -35,18 +35,19 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 
 
     *R/ Se puede ver que el programa es ejecutado de manera correcta y muestra la salida esperada en pantalla.
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
 
 *¿Puede usted usar gdb para encontrar problemas como este?
 
     *R/ Al usar **gdb** podemos notar que el programa es ejecutado con normalidad imprimiendo en pantalla el resultado esperado nuevamente.
     
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4Valgrind.png)
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4gdb.png)
 
 
 *¿Que dice acerca de Valgrind (de nuevo use este con la bandera ```--leak check=yes```)?
 
     *R/ Al usar **valgrind** podemos observar más detalles donde podemos notar que fueron reservados 4 bytes en un bloque, el cual no fue liberado al finalizar el programa, esto fue como se puede ver un **definitely lost**
+   ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4Valgrind.png)
 
 5. Escriba un programa que cree un array de enteros llamado data de un tamaño de 100 usando ```malloc```; entonces, lleve el ```data[100]``` a ```0```.
 
