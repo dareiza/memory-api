@@ -34,7 +34,7 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 *¿Qué pasa cuando este programa se ejecuta?
 
     *R/ Se puede ver que el programa es ejecutado de manera correcta y muestra la salida esperada en pantalla.
-    ![enlace](https://raw.githubusercontent.com/dareiza/memory-api/master/imagenes/punto4.png)
+    
 
 *¿Puede usted usar gdb para encontrar problemas como este?
 
